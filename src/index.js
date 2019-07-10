@@ -1,2 +1,2 @@
 import './js/test'
-import './sass/main.sass'
+import './scss/main.scss'
