@@ -22,7 +22,10 @@
     "url": "https://github.com/DonVeds/coincap-clone/issues"
   },
   "homepage": "https://github.com/DonVeds/coincap-clone",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vuex": "^3.1.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
@@ -40,6 +43,9 @@
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2",
