@@ -1,6 +1,6 @@
 # Coincap-clone
 
-![Simple mainpage screenshot](/CryptocurrencyScreenshot?raw=true "Simple mainpage screenshot")
+![Simple mainpage screenshot](https://github.com/DonVeds/coincap-clone/blob/473dcf7f3cc7118642259a445e331efe3f5a4053/README.md#L3 "Simple mainpage screenshot")
 This was one of my first work for job interview, but I really like it.
 
 ## Getting Started
