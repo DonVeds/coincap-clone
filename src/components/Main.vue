@@ -21,15 +21,6 @@
             </table>
             
         </div>
-
-        <div class="main-ttl" aria-hidden='true'>
-            <div class="main-ttl-title">
-                <p class="main-ttl-title-header">Name</p>
-                <p class="main-ttl-title-header">Price</p>
-                <p class="main-ttl-title-header main-ttl-title-header_desctop">Market Cap</p>
-                <p class="main-ttl-title-header main-ttl-title-header_desctop">Volume(24Hr)</p>
-            </div>
-        </div>
     </main>
 </template>
 
@@ -74,30 +65,6 @@
     border-bottom: 2px solid rgba(239,37,37,1);
 }
 
-.main-ttl {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -94%;
-
-}
-
-.main-ttl-title {
-    display: flex;
-    width: 85%;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    border: 4px solid white;
-}
-
-.main-ttl-title-header{
-    width: 25%;
-    margin: 0;
-    font-weight: bold;
-}
-
 
 
 @media all and (max-width: 425px) {
@@ -129,33 +96,6 @@
     }
 
     .main-t-table-row--header_desctop{
-        display: none;
-    }
-
-    .main-ttl {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: -99.99%;
-    }
-
-    .main-ttl-title {
-        display: flex;
-        width: 100%;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        border: 4px solid white;
-    }
-
-    .main-ttl-title-header{
-        width: 50%;
-        margin: 0;
-        padding: 5px;
-    }
-
-    .main-ttl-title-header_desctop{
         display: none;
     }
 }
