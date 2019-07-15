@@ -7,11 +7,11 @@ This was one of my first work for job interview, but I really like it.
 
 The most usual staff.
 
-#### Setup:
+### Setup:
 ```
 npm i
 ```
-#### Development:
+### Development:
 
 ```
 npm run dev
